@@ -1,0 +1,595 @@
+CREATE TABLE ciInversions2StoryElements(InvId TEXT, SeId TEXT);
+CREATE TABLE ciInversions(Id TEXT, InternalId INTEGER, ConnId TEXT, Comment TEXT, OffChart TEXT, Status TEXT);
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-2', 'Ниггер -- необязательно с
+черным цветом кожи.
+', 1);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (1, 'ЭИ-1');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-1', 'Принято считать, что в наше
+время нормальные люди осуждают
+
+дискриминацию людей по национальному
+
+признаку. Принято считать, что это
+
+было в прошлом, а сейчас мы
+
+цивилизованы и таким не занимаемся.
+
+
+На самом деле всегда есть люди, над
+
+которыми разрешено издеваться
+
+безнакаказнно, открыто требовать их
+
+уничтожения. В 20-м и 21-м векаах
+
+такими людьми являются, в том числе,
+
+русские.
+', 2);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (2, 'ЭИ-2');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-3', 'Австрия -- страна потомков
+нацистов, которые не раскаялись в
+
+своих преступлениях и ничему не
+
+научились из их темного прошлого. 
+', 3);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (3, 'ЭИ-3');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-2', 'Западная цивилизация кое-как
+научилась не говорить слово ниггер,
+
+но это не означает, что они
+
+перестали уничтожать другие народы.
+
+Африканцев и евреев притеснять
+
+нельзя (при свиетелях), русских --
+
+можно.
+', 4);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (4, 'ЭИ-4');
+
+INSERT INTO ciInversions(Id, ConnId, Comment, InternalId) VALUES('И-2', 'К-4', 'В Австрии нацизм живет и
+процветает.
+', 5);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (5, 'ЭИ-5');
+
+INSERT INTO ciInversions(ConnId, Comment, OffChart, InternalId) VALUES('К-5', 'Нацизм, как и другие случаи
+целенаправленного геноцида -- это
+
+не ошибка истории, а неотъемлемая
+
+часть западной цивилизации, секрет
+
+ее успеха.
+
+
+Хантингтон хорошо про это сказал:
+
+
+The West won the world not by the
+
+superiority of its ideas or values
+
+or religion […] but rather by its
+
+superiority in applying organized
+
+violence. Westerners often forget
+
+this fact; non-Westerners never do.
+', 'Источник цитаты -- https://www.goodreads.com/quotes/142210-the-west-won-the-world-not-by-the-superiority-of', 6);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (6, 'ЭИ-6');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-7', 'Нацизм -- это частный случай
+применения западом организованного
+
+насилия. Организованный геноцид был
+
+не только у немцев, но у большинства
+
+западных держав. Истребление
+
+коренного населения обоих Америк
+
+отличается от Холокоста только
+
+национальностью жертв.
+', 7);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (7, 'ЭИ-7');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-7', 'Для организованного геноцида
+нужна пропаганда. Горячей войне
+
+всегда предшествует холодная.
+
+
+Чтобы один народ напал на другой,
+
+его народ-агрессор надо убедить в
+
+том, что народ-жертва достоин
+
+смерти. Аналогия: Если десятеро
+
+бьют одного, нормальная реакция --
+
+недогование. Несправедливо же!
+
+А если окажется, что тот, кого бьют
+
+-- педофил, то негодование пройдет.
+
+Перед каждой войной и подобными
+
+войне действиями (например,
+
+санкциями) всегда ведется кампания
+
+по убеждению народа-агрессора
+
+(это, как правило, западный народ)
+
+в том, что народ-жертва (например,
+
+Россия) достоин гибели.
+
+
+Крайние 100 лет запад почти
+
+постоянно вел войну против России
+
+разными способами. Для постоянной
+
+войны нужна постоянная
+
+антироссийская истерия,
+
+
+Поэтому разные аналоги нацизма
+
+были всегда. Нацизм в той или иной
+
+форме будет, пока существуетт
+
+запад.
+', 8);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (8, 'ЭИ-8');
+
+INSERT INTO ciInversions(Id, ConnId, Comment, InternalId) VALUES('И-1', 'К-8', 'Европейская интеллигенция
+(как, впрочем, и большинство
+
+других интеллигенций) в своей
+
+массе занимается тремя вещами.
+
+
+Первое: Обеление элит.
+
+
+Второе: Выполнение заказа элит.
+
+Допустим, элитам надо сократить
+
+население ради улучшения экологии.
+
+Сами по себе люди не захотят
+
+умирать. Поэтому интеллигенция
+
+придумала разные привлекательные
+
+штуки, которые побуждают людей
+
+не размножаться. Пропаганда
+
+гомосексуализма помогает сокращать
+
+население, потому что у однополых
+
+пар не может быть биологических
+
+детей. А трескотня о "небинарных
+
+полах" у гетеросексуалов вызывает
+
+сомнения относительно их пола. Чем
+
+больше сомнений, тем несчастнее
+
+человек и тем ниже вероятность,
+
+что он или она создать работающую
+
+семью с детьми. Фильмы вроде
+
+"Москва слезам не верит" и "Pretty
+
+Woman" -- это тоже выполнение
+
+заказа элит по медленному
+
+геноциду.
+
+
+Третье: Передача в будущее
+
+вчерашних и позавчерашних идей.
+
+Когда кто-то говорит, что нет
+
+истории любви лучше "Pride and
+
+Prejudice" Джейн Остин (или то,
+
+что нельзя писать лучше Пушкина,
+
+Достоевского, или Толстого), это
+
+значит, что говорящий -- USB-флешка
+
+на биологической основе. Говорящий
+
+носитель информации.
+
+
+Так вот, ни одно из этих занятий
+
+не является интеллетуальным.
+
+По-настоящему умный человек
+
+а) понимает, что надо обществу
+
+сейчас и б) делает это.
+
+Это всегда будет вызывать вой
+
+со стороны той (подавляющей) части
+
+интеллегенции, которая обслуживает
+
+элиты.
+', 9);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (9, 'ЭИ-9');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-8', 'См. комментарий к И-1', 10);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (10, 'ЭИ-10');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-4', 'См. комментарий к И-2', 11);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (11, 'ЭИ-11');
+
+INSERT INTO ciInversions(Id, ConnId, Comment, InternalId) VALUES('И-3', 'К-11', 'Австрия -- страна всеобщего
+вранья. Вранье началось во время
+
+Первой Мировой Войны, когда под
+
+предлогом борьбы с "русофилией"
+
+австровенгерские органы издевались
+
+над жителями западной Украины.
+
+Кульминацией этого стал концлагерь
+
+"Талергоф". После того, как его
+
+закрыли, на его месте построили
+
+аэропорт. Судя по высказываниям
+
+современных историков и
+
+представителей австрийского
+
+министерства обороны, в этом
+
+аэропорту самолеты ездят по костям,
+
+т. к. часть захоронений не была
+
+перенесена.
+
+
+Вранье продолжилось, когда после
+
+войны австрийцы (как элиты, так и
+
+рядовые) стали говорить о себе как
+
+о первой жертве Гитлера. Они
+
+так говорят, потому что в 1938-м
+
+году немцы аннектировали Австрию.
+
+Но у австрийцев на тот момент были
+
+планы по обороне от немцев (как
+
+раз на такой случай), армия и даже
+
+небольшие ВВС. Они не этим не
+
+воспользовались. Вместо этого так
+
+тепло приняли Гитлера, что тот
+
+поменял планы (решил сделать
+
+Австрию частью Германии).
+', 12);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (12, 'ЭИ-12');
+
+INSERT INTO ciInversions(Id, ConnId, Comment, InternalId) VALUES('И-4', 'К-12', 'На самом деле есть. Черных
+ниггеров притесняют точно также
+
+как белых.
+', 13);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (13, 'ЭИ-24');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-14', 'На самом деле нет.
+Австрийское общество может
+
+травмировать смесью ксенофобии со
+
+столетним враньем.
+', 14);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (14, 'ЭИ-26');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-12', 'Также как И-4.', 15);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (15, 'ЭИ-25');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-12', 'Также как И-4.', 16);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (16, 'ЭИ-27');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-11', 'В Австрии с 1949-го года
+действует партия, которая в начале
+
+состояла из бывших нацистов. В
+
+разных формах эта партия существует
+
+по сей день.
+
+
+Если в какой-то стране нацисты
+
+ей управляют, то эта страна не
+
+может считаться цивилизованной.
+', 17);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (17, 'ЭИ-27');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-11', 'Австрия -- страна
+победившего нацизма.
+', 18);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (18, 'ЭИ-28');
+
+INSERT INTO ciInversions(Id, ConnId, Comment, InternalId) VALUES('И-5', 'К-13', 'Австрийцы только делают вид,
+что не являются антисемитами. Без
+
+свидетелей даже образованные и
+
+обеспеченные делают антисемитские
+
+высказывания.
+', 19);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (19, 'ЭИ-29');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-13', 'Также как И-5.', 20);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (20, 'ЭИ-30');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-15', 'Практика показывает, что на
+западе куча образованных людей,
+
+которые являются расистами.
+
+
+Практически вся западная
+
+интеллигенция не считала зазорным
+
+русофобию во время Холодной войны.
+
+Русофобия (как и антисемитизм) --
+
+частный случай расизма.
+', 21);
+-- CINV error: Field 'SeId' is not present in record '{'ConnId': 'К-15', 'Comment': 'Практика показывает, что на\nзападе куча образованных людей,\n\nкоторые являются расистами.\n\n\nПрактически вся западная\n\nинтеллигенция не считала зазорным\n\nрусофобию во время Холодной войны.\n\nРусофобия (как и антисемитизм) --\n\nчастный случай расизма.\n', 'InternalId': 21}'
+
+INSERT INTO ciInversions(Id, ConnId, Comment, InternalId) VALUES('И-6', 'К-17', 'Вранье СМИ о том, что
+русские повлияли на президентские
+
+выборы в США в 2016-м году
+
+(Russiagate hoax) используется
+
+австрийцами как очередное
+
+обоснование их иррациональной
+
+русофобии.
+', 22);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (22, 'ЭИ-31');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-17', 'См. И-6.', 23);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (23, 'ЭИ-15');
+
+INSERT INTO ciInversions(ConnId, Comment, OffChart, InternalId) VALUES('К-18', 'Основу конфликта на
+Украине заложили австрийцы.
+
+Во время Первой Мировой Войны
+
+начальник генштаба Австровенгрии
+
+генерал Франц Римль фон Альтрозенбург
+
+утверждал, что русофильское население
+
+западной Украины нужно "стереть в
+
+в порошок." (Источник см. столбец
+
+OffChart этой записи.)
+
+
+Австрийцы хотели колонизировать
+
+западную Украину и для этого
+
+придумали миф об украинском народе,
+
+который не имеет ничего общего с
+
+Россией. В то время подавляющее
+
+большинство жителей западной
+
+Украины были русофилами. Эти люди
+
+не торопились переходить на сторону
+
+Австровенгрии. За это их в
+
+массовом порядке притесняли
+
+(источник: "Талергофский Альманах").
+
+
+В 2014-м году запад (США и ЕС)
+
+сделали очередную цветную революцию,
+
+а вину спихнули на Россию.
+', 'Фотографии этого документа
+из австрийского государственного
+
+архива есть на
+
+
+https://history.stackexchange.com/questions/56907/did-austrian-chief-of-staff-franz-riml-say-that-the-only-way-to-correct-the-russ
+', 24);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (24, 'ЭИ-32');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-17', 'СССР развалился. Запад
+тоже может развалиться.
+', 25);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (25, 'ЭИ-33');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-19', 'LGBT craze is just a pretext
+to prove that the Russians are
+
+white niggers.
+', 26);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (26, 'ЭИ-34');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-20', 'Замалчивание заслуг
+Менделеева (в западных учебниках
+
+не любят писать о том, что русский
+
+открыл таблицу Менделеева и
+
+предсказал свойства неизвестных
+
+элементов).
+', 27);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (27, 'ЭИ-35');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-21', 'Показной феминизм', 28);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (28, 'ЭИ-36');
+
+-- Ignoring empty record in ciInversions table
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-22', 'Белый ниггер не должен
+возмущаться (по-моему, мы уже это
+
+где-то записывали, но не уверен).
+', 29);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (29, 'ЭИ-37');
+
+-- Ignoring empty record in ciInversions table
+-- Ignoring empty record in ciInversions table
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-23', '?', 30);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (30, 'ЭИ-38');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-24', '?', 31);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (31, 'ЭИ-39');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-25', 'Not only individuals, but
+the society as a whole is broken.
+', 32);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (32, 'ЭИ-40');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-26', 'Вена -- anus mundi (анус
+мира). Я видел книгу про какой-то
+
+концлагерь, где его узник так
+
+описывал его.
+', 33);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (33, 'ЭИ-41');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-26', 'Вена -- anus mundi (анус
+мира). Я видел книгу про какой-то
+
+концлагерь, где его узник так
+
+описывал его.
+', 34);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (34, 'ЭИ-42');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-27', 'Там, где другие видят
+позитив, Геббельс вспоминает свое
+
+дисфункциональное детство и
+
+молодость. Эти позитивные на
+
+первый взгляд места и события
+
+триггерят его ПТСР.
+', 35);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (35, 'ЭИ-41');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-27', 'Там, где другие видят
+позитив, Геббельс вспоминает свое
+
+дисфункциональное детство и
+
+молодость. Эти позитивные на
+
+первый взгляд места и события
+
+триггерят его ПТСР.
+
+
+Позитив - Флешбек - Негатив
+', 36);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (36, 'ЭИ-39');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-28', 'Feeling of lack of sense', 37);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (37, 'ЭИ-43');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-29', 'It''s the society that turned
+Goebbels into a weirdo.
+', 38);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (38, 'ЭИ-44');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-30', '?', 39);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (39, 'ЭИ-45');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-31', '?', 40);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (40, 'ЭИ-46');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-32', '?', 41);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (41, 'ЭИ-47');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-33', '?', 42);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (42, 'ЭИ-48');

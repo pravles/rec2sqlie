@@ -1,0 +1,15 @@
+# Story elements
+%rec: ciStoryElements
+%type: Id TEXT
+# Type -- character, location, event
+# etc.
+%type: Type TEXT
+%type: Desc TEXT
+# OffChart: Текст, который не должен
+# появляться в диаграмме
+%type: OffChart TEXT
+
+Id: ЭИ-39
+Desc: Goebbels' childhood,
++ non-physical abuse.
+

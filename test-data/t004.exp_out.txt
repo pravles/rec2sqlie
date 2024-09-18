@@ -1,0 +1,7 @@
+CREATE TABLE SomeTable(Desc TEXT);
+INSERT INTO SomeTable(Desc) VALUES('Some text
+another text
+
+
+text after an empty line
+');

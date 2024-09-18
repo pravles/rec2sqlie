@@ -1,0 +1,8 @@
+%rec: SomeTable
+%type: Desc TEXT
+
+Desc: Some text
++ another text
++
++ text after an empty line
+

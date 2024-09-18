@@ -1,0 +1,10 @@
+CREATE TABLE ciInversions2StoryElements(InvId TEXT, SeId TEXT);
+CREATE TABLE ciInversions(Id TEXT, InternalId INTEGER, ConnId TEXT, Comment TEXT, OffChart TEXT, Status TEXT);
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-2', 'Ниггер -- необязательно с
+черным цветом кожи.
+', 1);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (1, 'ЭИ-1');
+
+INSERT INTO ciInversions(ConnId, Comment, InternalId) VALUES('К-3', '?', 2);
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (2, 'ЭИ-2');
+INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES (2, 'ЭИ-3');

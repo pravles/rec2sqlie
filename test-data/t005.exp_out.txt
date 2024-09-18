@@ -1,0 +1,19 @@
+CREATE TABLE ciInversions(Id TEXT, ConnId TEXT, SeId TEXT, Comment TEXT, OffChart TEXT);
+-- Undeclared field 'Desc'
+
+INSERT INTO ciInversions(ConnId) VALUES('К-15
+западе куча образованных людей,
+
+которые являются расистами.
+
+
+Практически вся западная
+
+интеллигенция не считала зазорным
+
+русофобию во время Холодной войны.
+
+Русофобия (как и антисемитизм) --
+
+частный случай расизма.
+');

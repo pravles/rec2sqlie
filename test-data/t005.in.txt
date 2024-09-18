@@ -1,0 +1,24 @@
+# Inversions
+# Инверсии
+%rec: ciInversions
+%type: Id TEXT
+# ConnId -- connector ID
+%type: ConnId TEXT
+# SeId -- Story Element ID
+%type: SeId TEXT
+%type: Comment TEXT
+# OffChart: Текст, который не должен
+# появляться в диаграмме
+%type: OffChart TEXT
+ 
+ConnId: К-15
+Desc: Практика показывает, что на
++ западе куча образованных людей,
++ которые являются расистами.
++
++ Практически вся западная
++ интеллигенция не считала зазорным
++ русофобию во время Холодной войны.
++ Русофобия (как и антисемитизм) --
++ частный случай расизма.
+

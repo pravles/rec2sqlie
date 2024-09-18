@@ -1,0 +1,4 @@
+CREATE TABLE ciStoryElements(Id TEXT, Type TEXT, Desc TEXT, OffChart TEXT);
+INSERT INTO ciStoryElements(Id, Desc) VALUES('ЭИ-39', 'Goebbels'' childhood,
+non-physical abuse.
+');

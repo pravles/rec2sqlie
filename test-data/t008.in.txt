@@ -1,0 +1,22 @@
+%rec: ciInversions2StoryElements
+%type: InvId TEXT
+%type: SeId TEXT
+
+%rec: ciInversions
+%type: Id TEXT
+%type: InternalId AUTOINC
+%type: ConnId TEXT
+%type: SeId CINV|INSERT INTO ciInversions2StoryElements(InvId, SeId) VALUES ({0}, '{1}');|InternalId
+%type: Comment TEXT
+%type: OffChart TEXT
+%type: Status TEXT
+
+ConnId: К-2
+SeId: ЭИ-1
+Comment: Ниггер -- необязательно с
++ черным цветом кожи.
+
+ConnId: К-3
+SeId: ЭИ-2, ЭИ-3
+Comment: ?
+
